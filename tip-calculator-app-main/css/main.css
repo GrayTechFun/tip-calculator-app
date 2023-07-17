@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #badee3;
+}
+
+.para {
+  display: flex;
+}
+
+.error {
+  margin-left: 8em;
+  color: red;
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+.wrapper {
+  width: 37.5em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.container {
+  background-color: white;
+  width: 30em;
+  border-radius: 2em;
+  padding: 2em;
+  margin-top: 3em;
+}
+
+h4 {
+  color: #546264;
+  margin-bottom: 1em;
+}
+
+::placeholder {
+  text-align: right;
+  color: #002823;
+}
+
+.dollarimg {
+  margin-bottom: 2em;
+  width: 19em;
+  height: 2.5em;
+  background-color: #f1f7fa;
+  border-style: none;
+  border-radius: 0.2em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+
+.dollarimg::placeholder {
+  font-size: 2rem;
+}
+
+.peopleimg::placeholder {
+  font-size: 2rem;
+}
+
+.peopleimg {
+  margin-bottom: 2em;
+  width: 19em;
+  height: 2.5em;
+  background-color: #f1f7fa;
+  border-style: none;
+  border-radius: 0.2em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+
+.tip button {
+  width: 9em;
+  height: 2.5em;
+  color: white;
+  background-color: #06383a;
+  border-style: none;
+  border-radius: 0.3em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.custom {
+  width: 9.5em;
+  height: 2.7em;
+  padding-right: 0.5em;
+  background-color: #ebf3f6;
+  border-style: none;
+  border-radius: 0.3em;
+}
+
+.custom::placeholder {
+  color: #4a6b65;
+  font-size: 2rem;
+}
+
+.rightcol {
+  background-color: #06383b;
+  border-radius: 0.5em;
+  padding: 0 1em;
+  padding-top: 2em;
+}
+
+.rightcol p {
+  color: #52848a;
+}
+
+h3 {
+  color: #f5ffff;
+}
+
+.tipamount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 2.7rem;
+  color: #27b89e;
+}
+
+.rightcol button {
+  background-color: #27b89e;
+  width: 18em;
+  height: 2.5em;
+  border-style: none;
+  border-radius: 0.2em;
+  margin: 1em 0;
+  color: #003e3f;
+  margin-bottom: 1.5em;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    margin-top: 10em;
+  }
+  .container {
+    margin-top: 6em;
+    width: 60em;
+    height: 34em;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tip button {
+    width: 6em;
+  }
+  .custom {
+    width: 6.3em;
+  }
+
+  .dollarimg {
+    width: 20em;
+  }
+  .peopleimg {
+    width: 20em;
+  }
+
+  .people {
+    margin-top: 1em;
+  }
+
+  .leftcol {
+    margin-top: 2em;
+  }
+
+  .rightcol {
+    height: 30em;
+  }
+
+  .tipamount {
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+  }
+  .total {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .rightcol button {
+    margin-top: 8em;
+  }
+}
+
+.tip button:hover {
+  background-color: #8fe5d8;
+  cursor: pointer;
+  color: #003431;
+}
+
+.rightcol button:hover {
+  background-color: #8fe5d8;
+  cursor: pointer;
+}
+
+.dollarimg:hover {
+  cursor: pointer;
+  border: 1px solid #74c1b4;
+}
+
+.peopleimg:hover {
+  cursor: pointer;
+  border: 1px solid #74c1b4;
+}
+
+.custom:click {
+  cursor: pointer;
+  border: 1px solid #74c1b4;
+}
